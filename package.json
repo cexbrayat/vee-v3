@@ -8,6 +8,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "vee-validate": "^3.0.7",
     "vue": "^2.6.10"
   },
   "devDependencies": {

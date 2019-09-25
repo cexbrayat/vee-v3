@@ -32,6 +32,9 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import { extend } from 'vee-validate';
+import { required } from 'vee-validate/dist/rules';
+extend('required', required);
 
 export default Vue.extend({
   name: 'HelloWorld',
